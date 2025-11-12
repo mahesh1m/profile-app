@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/contact', (req, res) => {
-  res.send('You can contact me at trishamahesh@gmail.com');
+  res.send('You can contact me at trishamahesh@gmail.com and my phone nymber is 9916590880');
 });
 
 module.exports = router;
