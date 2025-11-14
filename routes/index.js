@@ -16,7 +16,7 @@ router.get('/contact', (req, res) => {
 });
 
 router.get('/skills', (req, res) => {
-  res.send('Skills: Java, Node, Data Science, Machine Learning, Generative AI');
+  res.send('Skills: Java, Node, Data Science, Machine Learning, Generative AI, LLM, LangChain, RAGG, MCP Servers');
 });
 
 module.exports = router;
