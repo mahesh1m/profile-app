@@ -11,4 +11,8 @@ router.get('/contact', (req, res) => {
   res.send('You can contact me at trishamahesh@gmail.com and my phone nymber is 9916590880');
 });
 
+router.get('/skills', (req, res) => {
+  res.send('Skills: Java, Node, Data Science, Machine Learning, Generative AI');
+});
+
 module.exports = router;
