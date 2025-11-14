@@ -7,6 +7,10 @@ router.get('/', (req, res) => {
   res.send('API Home');
 });
 
+router.get('/hobbies', (req, res) => {
+  res.send('learning and working with ai tools');
+});
+
 router.get('/contact', (req, res) => {
   res.send('You can contact me at trishamahesh@gmail.com and my phone nymber is 9916590880');
 });
