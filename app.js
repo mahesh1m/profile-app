@@ -1,7 +1,7 @@
 // Entry point for the Express app
 const express = require('express');
 const app = express();
-const routes = require('./routes');
+const routes = require('./routes/index'); // explicitly load routes/index.js
 
 app.use(express.json());
 app.use('/api', routes);
